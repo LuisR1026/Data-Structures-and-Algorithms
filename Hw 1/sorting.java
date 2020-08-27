@@ -68,13 +68,13 @@ public class hw1
         return runTime;
     }
    
-    public static int[] newArray (int size) {
+    /*public static int[] newArray (int size) {
             int[] A = new int[size];
             for (int i = 0; i < size; i++) {
                 A[i] = (int)(Math.random()*100 + 1);
             }
             return A;
-    }
+    }*/
    
     /*** PART 2 ***/
     public static long timeSearch(int[] A, int target) {
